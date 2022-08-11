@@ -1,0 +1,12 @@
+.label {
+    display: flex;
+    align-items: flex-end;
+}
+
+.label input {
+    margin-top: 10px;
+    width: 140px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}

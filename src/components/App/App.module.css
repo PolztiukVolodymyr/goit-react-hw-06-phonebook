@@ -1,0 +1,13 @@
+.container {
+    width: 450px;
+    background: #dcdcdc;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+h1,
+h2 {
+    color: #494e4f;
+}

@@ -1,0 +1,39 @@
+.list {
+    width: 400px;
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+
+button {
+    width: 110px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.list button {
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+button:hover {
+    background-color: #8c8c8c;
+    color: #fff;
+}

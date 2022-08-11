@@ -1,0 +1,20 @@
+.label {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.label input {
+    margin-top: 10px;
+    width: 140px;
+    height: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.form button {
+    padding: 5px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border-color: #9baba7;
+}
