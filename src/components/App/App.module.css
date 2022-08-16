@@ -1,3 +1,9 @@
+h1,
+h2 {
+    color: #494e4f;
+    margin: 0;
+}
+
 .container {
     width: 450px;
     background: #dcdcdc;
@@ -7,7 +13,24 @@
 
 }
 
-h1,
-h2 {
-    color: #494e4f;
+.wrap{
+    background-color: #acb5c2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wrap button {
+    margin-left: 150px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+
+
+.titleSection{
+margin-bottom: 20px;
+margin-top: 40px;
+
 }

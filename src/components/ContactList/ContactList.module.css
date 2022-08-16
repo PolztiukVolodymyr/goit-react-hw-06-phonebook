@@ -1,7 +1,9 @@
 .list {
-    width: 400px;
+    background-color: #acb5c2;
+    padding: 20px;
+    width: auto;
     list-style: none;
-    padding: 0;
+    border-radius: 10px;
 }
 
 .item {
@@ -26,14 +28,15 @@ button {
 }
 
 .list button {
-    width: 60px;
-    height: 25px;
-    font-size: 14px;
+    
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 
 button:hover {
-    background-color: #8c8c8c;
+    background-color: #31344d;
     color: #fff;
 }

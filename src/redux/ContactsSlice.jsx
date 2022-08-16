@@ -9,6 +9,7 @@ const contactList = [
   { id: 'id-4', name: 'Annie Copeland', number: '227-91-26' },
 ];
 
+
 const persistConfig = {
   key: 'contacts',
   storage,
@@ -24,11 +25,11 @@ const contactsSlice = createSlice({
        
     addContact(state, actions) {
         state.items.push(actions.payload);
-        },
+    },
         
     deleteContact(state, actions) {
       state.items = state.items.filter(item => item.id !== actions.payload);
-        },
+    },
     
     setContact(state, actions) {
       state.filter = actions.payload;

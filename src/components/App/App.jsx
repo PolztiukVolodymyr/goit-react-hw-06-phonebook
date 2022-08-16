@@ -43,20 +43,21 @@ export function App() {
   };
 
   const filteredContacts = filterContact();
-
+  
       return (
-      <div className={css.container}>
-        <h1>Phonebook</h1>
-        <ContactForm onSubmit={onSubmit} />
-        <h2>Contacts</h2>
+        <div className={css.container}>
+          <h1 className={css.title}>Phonebook</h1>
+          <div className={css.wrap}>
+            <ContactForm onSubmit={onSubmit} />
+          </div>
+        <h2 className={css.titleSection}>Contacts</h2>
         
         <Filter value={filter} onChange={changeFilter} />
-         <ContactList
-          contacts={filteredContacts}
-          onDeleteContact={deleteContacts}
-        />
+          {filteredContacts.length
+            ? <ContactList
+              contacts={filteredContacts}
+              onDeleteContact={deleteContacts} />
+            : null}
     </div>
-      
-    )
-
-}
+  )
+};
